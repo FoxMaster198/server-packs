@@ -1,4 +1,0 @@
-execute as @a at @p run item replace entity @p[scores={Test=1..}] weapon.mainhand from entity @p[scores={Test=1..}] armor.head
-execute as @a at @p run item replace entity @p[scores={Test=1..}] armor.head with minecraft:carrot_on_a_stick{display:{Name:'{"text":"Car"}'},AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:1,Operation:1,UUID:[I;-1108552740,-1151122141,-1409795745,-25586580],Slot:"head"}]} 1
-execute as @a if entity @p[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",Slot:103b}]}] run effect give @s jump_boost 1 200 true
-scoreboard players set @a Test 0
